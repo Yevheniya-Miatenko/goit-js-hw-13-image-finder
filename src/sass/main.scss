@@ -1,0 +1,14 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+// Стили для файла с примером HTML-фрагмента
+@import './../../node_modules/bootstrap/scss/bootstrap';
+@import './../../node_modules/bootstrap/scss/mixins';
+@import './../../node_modules/bootstrap/scss/variables';
+
+@import './../../node_modules/bootstrap/scss/_spinners.scss';
+@import './styles';
+
+// @import '../'

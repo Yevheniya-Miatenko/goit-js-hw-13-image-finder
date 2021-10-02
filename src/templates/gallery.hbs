@@ -1,0 +1,30 @@
+
+{{#each hits}}
+    <li id="to-me" class="gallery__item">
+        <div class="photo-card">
+            <div class="img-box">
+                <img width="320" src="{{webformatURL}}" alt="photo" class="small-pic" data-src="{{largeImageURL}}"/>
+            </div>
+        
+            <div class="stats">
+                <p class="stats-item">
+                    <i class="material-icons">thumb_up</i>
+                    {{likes}}
+                </p>
+                <p class="stats-item">
+                    <i class="material-icons">visibility</i>
+                    {{views}}
+                </p>
+                <p class="stats-item">
+                    <i class="material-icons">comment</i>
+                    {{comments}}
+                </p>
+                <p class="stats-item">
+                    <i class="material-icons">cloud_download</i>
+                    {{downloads}}
+                </p>
+            </div>
+        </div>
+    </li>
+
+{{/each}}
